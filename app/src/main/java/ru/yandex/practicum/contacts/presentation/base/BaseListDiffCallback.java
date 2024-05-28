@@ -1,15 +1,11 @@
 package ru.yandex.practicum.contacts.presentation.base;
 
-import android.annotation.SuppressLint;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
-import androidx.recyclerview.widget.ListUpdateCallback;
 
-import org.jetbrains.annotations.Nullable;
 
-public class BaseListDiffCallback<T extends ListDiffInterface<T>> extends DiffUtil.ItemCallback<T>{
-
+public class BaseListDiffCallback<T extends ListDiffInterface<T>> extends DiffUtil.ItemCallback<T> {
 
 
     @Override
